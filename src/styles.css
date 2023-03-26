@@ -56,8 +56,16 @@ section {
 .secondary-section {
   background-color: rgb(188, 143, 143, 0.3);
 }
+
+.card-header.grid {
+  grid-gap: 0;
+}
 .card-body {
   padding: 30px;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 main {
   background-color: white;
@@ -197,11 +205,18 @@ footer a {
   header h3 {
     font-size: 12px;
   }
-  .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 32px;
-  }
+
   section {
     padding: 30px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
