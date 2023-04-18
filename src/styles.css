@@ -207,6 +207,11 @@ footer a {
   color: white;
   opacity: 1.7;
 }
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
